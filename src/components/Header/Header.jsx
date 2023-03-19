@@ -1,10 +1,14 @@
 import Nav from "./Navigation/Navigation";
 import styles from "./Header.module.scss"
 import logo from "./assets/icons/Logo.svg"
+import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <div className={styles.container}>
-            <img src={logo} alt="Logo" />
+            <div>
+                <img src={logo} alt="Logo" />
+                <NavLink to='/'>Womazing</NavLink>
+            </div>
             <Nav />
         </div>
     )
