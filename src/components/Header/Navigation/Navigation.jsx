@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom"
 import styles from "./Navigation.module.scss"
-const Nav = () => {
+const Nav = (props) => {
+    const { className } = props
     return (
         <div className={styles.NavLink}>
-            <NavLink to='/'>Главная</NavLink>
-            <NavLink to='/store'>Магазин</NavLink>
-            <NavLink to='about as'>О бренде</NavLink>
-            <NavLink to='contacts'>Контакты</NavLink>
+            <NavLink to='/' className={className}>Главная</NavLink>
+            <NavLink to='/store' className={className}>Магазин</NavLink>
+            <NavLink to='about as' className={className}>О бренде</NavLink>
+            <NavLink to='contacts' className={className}>Контакты</NavLink>
         </div>
     )
 }
