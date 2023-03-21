@@ -1,0 +1,80 @@
+.container {
+    width: 1370px;
+    padding: 30px;
+}
+
+.content {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.navLink {
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 140%;
+    margin-right: 45px;
+}
+
+.navLink:hover {
+    cursor: pointer;
+    color: #6E9C9F;
+
+}
+
+.phoneImg {
+    width: 14.45px;
+    height: 14.45px;
+    margin-right: 15.55px;
+}
+
+.phoneNumber {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.phoneNumber:hover {
+    cursor: pointer;
+    color: #6E9C9F;
+}
+
+
+.link {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    margin-right: 67px;
+}
+
+.logo {
+    width: 18.07px;
+    height: 25px;
+    margin-right: 14.47px;
+}
+
+.textLeftPart {
+    color: black;
+    text-decoration: none;
+}
+
+.textLeftPart:hover {
+    cursor: pointer;
+    color: #6E9C9F;
+}
+
+.basket {
+    width: 24px;
+    height: 23.54px;
+}
+
+.rightPart {
+    display: flex;
+    align-items: center;
+}
